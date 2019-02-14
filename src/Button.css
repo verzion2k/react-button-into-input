@@ -1,0 +1,13 @@
+body {
+    background-color: gainsboro;    
+}
+
+.form-wrapper {
+    width: 100%;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.btn {
+    padding: 10px 25px;
+}

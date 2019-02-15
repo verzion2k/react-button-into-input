@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
-import './Button.css';
+import React, { Component } from "react";
+import "./Button.css";
 
 class Button extends Component {
-    render() {
-
-        return ( 
-        <div className="form-wrapper">
-            <button className="btn" type="submit">Show text input</button>
-        </div>
-        );
-    }
+  render() {
+    return (
+      <button className="btn" onClick={this.props.onClick}>
+        {this.props.name}
+      </button>
+    );
+  }
 }
 
 export default Button;

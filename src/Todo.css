@@ -1,0 +1,9 @@
+body {
+  background-color: gainsboro;
+}
+
+#root {
+  width: 100%;
+  text-align: center;
+  margin: 100px 0;
+}
